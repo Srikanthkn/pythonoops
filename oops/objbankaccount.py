@@ -1,0 +1,12 @@
+from Bankaccount import bankaccount
+bankdeatiles=bankaccount()
+bankdeatiles.createAccount("srikanth",642345543222,"savings",20000)
+bankdeatiles.display()
+print()
+print("After Depositing the Ammount")
+bankdeatiles.deposit(1000)
+bankdeatiles.display()
+print()
+print("After withdraw The Ammount")
+bankdeatiles.withdraw(5000)
+bankdeatiles.display()
